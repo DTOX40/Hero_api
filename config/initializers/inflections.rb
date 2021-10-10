@@ -1,3 +1,5 @@
-ActiveSuoort::Inflector.inflections(:en) do |inflect|
-  inflect.inrregular 'hero', 'heroes'
-end
+ActiveSupport::Inflector.inflections(:en) do |inflect|
+   inflect.irregular 'hero', 'heroes'
+ end
+
+
