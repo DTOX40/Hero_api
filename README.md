@@ -2,8 +2,6 @@
 
 Esse repositório faz parte do projeto Hero Api
 
-Things you may want to cover:
-
 * Ruby version 2.5.2
 
 * Rails 5.2.0
