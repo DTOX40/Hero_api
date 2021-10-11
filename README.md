@@ -1,24 +1,29 @@
-# README
+# Hero Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Esse repositório faz parte do projeto Hero Api
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.5.2
 
-* System dependencies
+* Rails 5.2.0
 
-* Configuration
+# Configurações inicias para rodar o projeto
 
-* Database creation
+#clonar o projeto
 
-* Database initialization
+git clone git@github.com:DTOX40/Hero_api.git
+cd Hero_api
 
-* How to run the test suite
+#instalar as dependencias do Ruby on Rails
+bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+#criar os bancos de dados de development e de teste
+rails db:create
 
-* Deployment instructions
+#cria as tabelas 
+rails db:migrate
 
-* ...
+# Rodar o projeto
+
+rails s
